@@ -20,18 +20,18 @@
         justify-content: center;
         border-radius: 0.5rem;
         width: 4rem;
-        transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+        transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
         cursor: pointer;
     }
 
     .icon:hover{
-        transform: scale(1.2) translateY(-25%);
+        transform: scale(1.2) translateY(-20%);
     }
 
     .icon:hover + .icon,
     .icon:has(+ .icon:hover)
     {
-        transform: scale(1.1) translateY(-15%);
+        transform: scale(1.1) translateY(-10%);
     }
    
 

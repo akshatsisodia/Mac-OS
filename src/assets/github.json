@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "image": "https://picsum.photos/seed/project1/480/300",
+    "title": "Personal Portfolio",
+    "description": "A responsive portfolio website built with React, Vite and SCSS.",
+    "tags": ["react", "vite", "scss","javascript", "api", "css"],
+    "repolink": "https://github.com/example-user/portfolio",
+    "demolink": null
+  },
+  {
+    "id": 2,
+    "image": "https://picsum.photos/seed/project2/480/300",
+    "title": "Weather App",
+    "description": "A weather forecast app using OpenWeatherMap API and modern UI components.",
+    "tags": ["javascript", "api", "css"],
+    "repolink": "https://github.com/example-user/weather-app",
+    "demolink": "https://example-user.github.io/weather-app"
+  },
+  {
+    "id": 3,
+    "image": "https://picsum.photos/seed/project3/480/300",
+    "title": "Task Manager",
+    "description": "A full-stack task manager with authentication and persistent storage.",
+    "tags": ["nodejs", "express", "mongodb"],
+    "repolink": "https://github.com/example-user/task-manager",
+    "demolink": "https://taskmanager.example.com"
+  },
+  {
+    "id": 4,
+    "image": "https://picsum.photos/seed/project4/480/300",
+    "title": "E‑commerce UI",
+    "description": "A modern e‑commerce frontend with product listing and cart functionality.",
+    "tags": ["react", "tailwind", "stripe"],
+    "repolink": "https://github.com/example-user/ecommerce-ui",
+    "demolink": "https://example-user.github.io/ecommerce-ui"
+  },
+  {
+    "id": 5,
+    "image": "https://picsum.photos/seed/project5/480/300",
+    "title": "Chat App",
+    "description": "Real-time chat application using WebSocket and lightweight backend.",
+    "tags": ["socket.io", "nodejs", "react"],
+    "repolink": "https://github.com/example-user/chat-app",
+    "demolink": "https://chat.example.com"
+  }
+]
