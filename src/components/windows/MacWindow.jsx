@@ -2,13 +2,13 @@ import React from "react";
 import { Rnd } from "react-rnd";
 import "./macWindow.scss";
 
-const MacWindow = ({children,width="40vw",height="50vh"}) => {
+const MacWindow = ({children,width="40vw",height="50vh",x=200,y=200}) => {
   return (
     <Rnd default={{
       height:height,
       width:width,
-      x:200,
-      y:200
+      x:x,
+      y:y
     }}>
       <div className="window">
         <div className="nav">

@@ -5,7 +5,7 @@ import './resume.scss'
 const Resume = () => {
   return (
     <MacWindow>
-        <div className="resume">
+        <div className="resume-window">
             <iframe src="./resume.pdf" frameborder="0"></iframe>
         </div>
     </MacWindow>

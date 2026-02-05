@@ -1,0 +1,48 @@
+.cli-window{
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    color: #b9f286 !important;
+    overflow: auto;
+    padding-bottom: 5rem;
+
+    .terminal-shell{
+        flex: 1;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    /* target the emulator container (keeps selector used before) */
+    div[name="react-console-emulator"]{
+        height: 100%;
+        border-radius: 10px;  
+        box-shadow: 0 8px 30px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+        font-family: Menlo, Monaco, 'Courier New', monospace;
+        color: #b9f286;
+        background-color: transparent !important;
+    }
+
+    a{ color: #7fffbf; text-decoration: underline; }
+
+    .cli-welcome-title{
+        color: #9df7c6;
+        font-weight: 700;
+        letter-spacing: 0.6px;
+        margin-bottom: 0.25rem;
+        font-size: 1.5rem;
+        animation: glow 2.2s ease-in-out infinite alternate;
+    }
+
+    .cli-welcome-sub{
+        color: #b9f286;
+        opacity: 0.95;
+        font-size: 0.95rem;
+    }
+
+    @keyframes glow{
+        from{ text-shadow: 0 0 6px rgba(127,255,178,0.15); }
+        to{ text-shadow: 0 0 18px rgba(127,255,178,0.35); }
+    }
+}

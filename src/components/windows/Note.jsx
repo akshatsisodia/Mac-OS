@@ -16,7 +16,7 @@ const Note = () => {
     },[])
   return (
     <MacWindow>
-        <div className="note">
+        <div className="note-window">
             {markDown ? <SyntaxHighlighter language='typescript' style={atelierDuneDark}>{markDown}</SyntaxHighlighter>: "Loading...."}
         </div>
     </MacWindow>
